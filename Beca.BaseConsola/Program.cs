@@ -24,7 +24,9 @@ class Program
         list.Add("Menganito");
         list.Add("Yoli");
 
-        foreach(string cad in list)
+        list.Add("Pepito");
+
+        foreach (string cad in list)
         {
             Console.WriteLine(cad);
         }
